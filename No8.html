@@ -1,0 +1,30 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>No8</title> 
+        <script src= 
+"https://code.jquery.com/jquery-1.12.4.min.js"> 
+        </script> 
+    </head> 
+    <body> 
+        <center> 
+            <h1>Textarea wiht javascript</h1> 
+            <textarea id="txtArea"></textarea><br><br> 
+            <button id="btn">Show </button> 
+        </center> 
+    </body> 
+  
+    <script> 
+        $(document).ready(function () { 
+            
+             
+            $("#btn").click(function () { 
+                
+                
+                var text = $("#txtArea").val(); 
+                alert(text); 
+            }); 
+        }); 
+    </script> 
+</html> 
